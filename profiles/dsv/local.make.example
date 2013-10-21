@@ -1,0 +1,16 @@
+; DSV Local development file
+core = "7.x"
+api = "2"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+projects[drupal][version] = "7.x"
+
+; Libraries
+
+; setup install profile
+libraries[dsv][directory_name] = "dsv"
+libraries[dsv][type] = "profile"
+libraries[dsv][destination] = "../../profiles"
+libraries[dsv][download][type] = "git"
+libraries[dsv][download][url] = "ssh://git.dsv.su.se/git/drupal/dsv.git

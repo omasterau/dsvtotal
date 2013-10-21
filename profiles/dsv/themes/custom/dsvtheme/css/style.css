@@ -1,0 +1,359 @@
+/*
+  Main CSS file for the DSV Drupal theme
+*/
+body {
+  margin: 0 0 20px 0;
+  font: 76%/1.6 Verdana, Arial, Helvetica, sans-serif;
+  color: #000000;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: normal;
+  line-height: normal;
+}
+
+body #container {
+  width: inherit;
+  max-width: 994px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#head {
+  background-color: #002E5F;
+  padding-top: 30px;
+}
+
+#main-menu h2 {
+ display: none;
+}
+
+#main-menu-links {
+  line-height: 37px;
+  font-size: 130%;
+  height: 35px;
+  margin-top: 5px;
+  background-image: url('../img/head-menu-row-repeater.gif');
+  background-position: left bottom;
+}
+
+#main-menu-links li {
+  float: left;
+  padding-right: 12px;
+  height: 35px;
+}
+
+#main-menu-links li.first {
+  margin-left: 8px;
+}
+
+#main-menu-links li.active {
+  background-image: url('../img/head-menu-row-active.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+#main-menu-links li.active-trail {
+  background-image: url('../img/head-menu-row-active.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  font-weight: normal;
+}
+
+#main-menu-links a {
+  float: left;
+  color: #005b7f;
+  text-decoration: none;
+  padding: 0 12px 0 12px;
+}
+
+#main-menu-links a.active, #main-menu-links a.active-trail {
+  font-weight: normal;
+}
+
+.top-links .title {
+  display: none;
+}
+
+.top-links ul {
+  line-height: 21px;
+  font-size: 80%;
+}
+
+.top-links li {
+  display: inline;
+  border-right: solid 1px #68819f;
+  padding-right: 7px;
+  margin-right: 5px;
+}
+
+.top-links li:last-child {
+  border-right: none;
+}
+
+.top-links a {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+#top-links-right a {
+  padding-left: 0;
+}
+
+.top-links a:hover {
+  text-decoration: underline !important;
+}
+
+.top-links a:link, .top-links a:active, .top-links a:visited {
+  color: #FFFFFF;
+  font-size: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal !important;
+  text-decoration: none;
+}
+
+#top-links-left {
+  float: left;
+  height: 22px;
+  background: none;
+  padding-left: 6px;
+}
+
+#top-links-right {
+  float: right;
+  text-align: right;
+  height: 22px;
+  background: none;
+  padding-right: 6px;
+}
+
+.dsv_logotype {
+  margin-left: 24px;
+}
+
+.su_logotype {
+  margin-right: 24px;
+  float: right;
+}
+
+#search-block-form {
+  float: right;
+}
+
+#search-block-form div {
+  display: inline;
+}
+
+#search-block-form .form-submit {
+  background-color: #e17e33;
+  border: 1px solid #000;
+  color: #fff;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.breadcrumb {
+  display: inline-block;
+}
+
+#breadcrumbs {
+  padding: 6px 0 1px 7px;
+  font-size: 80%;
+  padding-left: 7px;
+  margin-top: 1px;
+  min-height: 25px;
+}
+
+#breadcrumbs, #breadcrumbs a {
+  color: #A0A0A0;
+  font-style: italic;
+}
+
+#content {
+  min-height: 300px;
+}
+
+#content p {
+  margin: 0 0 1.2em;
+}
+
+#main-content {
+  padding-left: 10px;
+}
+
+#main-content h1 {
+  margin-top: 0;
+  padding-top: 2px;
+  margin-bottom: 3px;
+  color: #002E5F;
+}
+
+#sidebar li {
+  background-image: url('../img/icon-menu-parent-2.gif');
+  background-position: 9px 10px;
+  background-repeat: no-repeat;
+}
+
+#sidebar-first {
+  float: left;
+  width: 19%;
+  padding-right: 1%;
+}
+
+#sidebar-first h2 {
+  display: none;
+}
+
+#sidebar-first a {
+  color: #005b7f;
+  text-decoration: none;
+}
+
+#sidebar-first a:visited { color: #7d7d7d; }
+
+#sidebar-first a:hover { 
+  color: #000;
+  text-decoration: underline;
+}
+
+#sidebar-first li {
+  background-image: url('../img/menu-top-level-gradient.gif');
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #fff;
+  list-style-type: none;
+}
+
+#sidebar-first .active-trail {
+  background-image: none;
+  background-color: #002e5f;
+  font-weight: normal;
+}
+
+#sidebar-first .active-trail a, #sidebar-first .active-trail a:visited, #sidebar-first .active-trail a:hover {
+  color: #fff;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+ul li.leaf {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#main-content {
+  float: left;
+  width: auto;
+  width: 56%;
+  padding-right: 1%;
+}
+
+#main-content h1 {
+  margin-bottom: 10px;
+}
+
+#sidebar-second {
+  display: inline-block;
+  float: right;
+  width: 19%;
+}
+
+#sidebar-second .block {
+  background-color: #DADCC4;
+  padding: 2px 8px 6px 8px;
+  margin-bottom: 4px;
+}
+
+#sidebar-second .block h2 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 70%;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  margin: 0;
+  color: #666;
+  line-height: 16px;
+}
+
+#sidebar-second .block p {
+  font-size: 90%;
+  line-height: 165%;
+  margin-bottom: 8px;
+}
+
+.footer {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  height: 75px;
+  width: 100%;
+  color: #002F5F;
+  font-size: 10px;
+}
+
+.footer b {
+  font-size: 110%;
+}
+
+.footer a {
+  font-size: 90%;
+  text-decoration: underline;
+}
+
+.footer a:link, .footer a:active, .footer a:visited {
+  color: #005b7f;
+}
+
+.footer a:hover {
+  color: #000;
+}
+
+.footer-top {
+  border-top: solid 1px #D2D7DC;
+}
+
+.footer-left {
+  float: left;
+  padding-top: 10px;
+  padding-left: 11px;
+  line-height: 20px;
+}
+
+.footer-right {
+  float: right;
+  padding-top: 6px;
+  padding-right: 11px;
+}
+
+.footer-right h2 {
+  display: none;
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  display: inline;
+  border-right: solid 1px #C0C0C0;
+  padding: 0 8px 0 8px;
+}
+
+.footer-links li:last-child {
+  border-right: none;
+}
+
+.clear-float {
+  display: block;
+  clear: both;
+  line-height: 0;
+  font-size: 0;
+  width: 1px;
+  height: 0px;
+  visibility: hidden;
+}
